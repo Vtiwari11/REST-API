@@ -1,7 +1,7 @@
 
 const config = {
 
-      server: "DESKTOP-I2H1MEU",
+      server: "DESKTOP-I2H1MEU",https://github.com/Vtiwari11/login_api
   
       database: "fristdb",
   
@@ -15,3 +15,5 @@ const config = {
   };
   
   module.exports = config;
+
+
