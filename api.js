@@ -1,4 +1,3 @@
-// const  db = require('./dbconfig');
 const db=require('./dbop');
 const  express = require('express');
 const  bodyParser = require('body-parser');

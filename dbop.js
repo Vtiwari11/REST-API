@@ -2,7 +2,6 @@ const  config = require('./dbConfig');
 const  sql = require('mssql');
 const express = require('express');
 const router = express.Router();
-//const bcrypt = require('bcryptjs');
 //const jwt = require('jsonwebtoken');
 async  function  getdetails() {
   try {
