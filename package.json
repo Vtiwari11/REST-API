@@ -10,7 +10,9 @@
   "dependencies": {
     "body-parser": "~1.0.1",
     "cors": "2.8.1",
+    "dotenv": "^16.0.1",
     "express": "~4.0.0",
+    "jsonwebtoken": "^8.5.1",
     "mssql": "^6.2.1"
   },
   "devDependencies": {

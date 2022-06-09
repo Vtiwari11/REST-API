@@ -9,9 +9,6 @@ const config = {
   
       password: "12345678",
   
-  
-  
-  
   };
   
   module.exports = config;
