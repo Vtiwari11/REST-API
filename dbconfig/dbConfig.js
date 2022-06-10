@@ -1,4 +1,4 @@
-
+const sql = require('mssql')
 const config = {
 
       server: "DESKTOP-I2H1MEU",
@@ -9,8 +9,17 @@ const config = {
   
       password: "12345678",
   
+      "options": {
+        "encrypt": true,
+        "enableArithAbort": true
+        }
+   
   };
   
-  module.exports = config;
+
+  let  pool =   sql.connect(config);
+
+
+  module.exports = pool;
 
 
