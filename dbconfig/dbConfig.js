@@ -1,25 +1,17 @@
 const sql = require('mssql')
 const config = {
-
-      server: "DESKTOP-I2H1MEU",
-  
+      server: "DESKTOP-I2H1MEU",  
       database: "fristdb",
-  
       user: "testlogin",
-  
       password: "12345678",
-  
-      "options": {
+        "options": {
         "encrypt": true,
         "enableArithAbort": true
         }
-   
   };
+  const pool = new sql.ConnectionPool(config);
+  pool.connect()
   
-
-  let  pool =   sql.connect(config);
-
-
   module.exports = pool;
 
 
